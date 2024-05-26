@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/design_default_color_background</item>
+        <item name="colorPrimaryDark">@color/design_default_color_background</item>
+        <item name="colorAccent">@color/design_default_color_background</item>
+    </style>
+
+    <!-- Custom styles for DatePicker and TimePicker -->
+    <style name="CustomDatePicker" parent="Theme.MaterialComponents.Light">
+        <item name="colorControlActivated">@color/button_color</item>
+        <item name="android:textColorPrimary">@color/button_color</item>
+        <item name="android:textColorSecondary">@color/button_color</item>
+    </style>
+
+    <style name="CustomTimePicker" parent="Theme.MaterialComponents.Light">
+        <item name="colorControlActivated">@color/button_color</item>
+        <item name="android:textColorPrimary">@color/button_color</item>
+        <item name="android:textColorSecondary">@color/button_color</item>
+    </style>
+
+    <style name="DarkTimePicker" parent="Theme.AppCompat">
+        <item name="android:timePickerDialogTheme">@style/DarkTimePickerDialog</item>
+        <item name="android:timePickerStyle">@style/DarkTimePickerWidget</item>
+    </style>
+
+    <style name="DarkTimePickerDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:colorAccent">@color/button_color</item>
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:background">@color/time_picker_background</item>
+    </style>
+
+    <style name="DarkTimePickerWidget">
+        <item name="android:numbersTextColor">@color/time_picker_text</item>
+        <item name="android:timePickerMode">spinner</item>
+    </style>
+</resources>

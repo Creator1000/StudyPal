@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Study Pal</string>
+    <string name="schedule_study_session">Schedule Study Session</string>
+    <string name="todo">TODO</string>
+</resources>
